@@ -1,0 +1,21 @@
+Aplicação de Flexbox:
+     - Criação de Contêiner Flexbox com Alinhamento Centralizado:
+       - Crie um contêiner Flexbox com cinco elementos filhos e alinhe-os verticalmente e horizontalmente ao centro. ()
+     - Alteração da Ordem dos Elementos:
+       - Altere a ordem dos elementos filhos em um contêiner Flexbox para que o último se torne o primeiro visualmente, sem modificar o HTML.()
+     - Distribuição Igual de Espaço:
+       - Crie um contêiner Flexbox que distribua o espaço igualmente entre os elementos filhos, independentemente de seu tamanho.()
+     - Barra de Navegação Flexível:
+       - Crie uma barra de navegação flexível usando Flexbox, onde os itens da barra de navegação se alinham à direita e ficam espaçados entre si dentro do contêiner.()
+     - Conjunto de Cartões:
+       - Crie um conjunto de cartões com imagens de tamanhos de conteúdo variáveis, onde os cartões têm a mesma altura e se alinham lado a lado, ajustando-se corretamente para baixo quando não houver espaço horizontal.()
+     - Galeria de Imagens:
+       - Crie uma galeria de imagens que use Flexbox para exibir as imagens em um layout flexível. As imagens devem ficar dispostas uma ao lado da outra e ajustar-se para baixo quando não houver espaço horizontal.()
+
+   - Estilização com Seletores CSS:
+     - Seletores de Elemento e Universal:
+       - A equipe utiliza seletores de elemento e seletores universais com moderação, aplicando-os apenas onde necessário para evitar especificidade excessiva.
+     - Seletores de ID e Classe:
+       - Os desenvolvedores adotam uma abordagem modular ao atribuir IDs e classes, garantindo uma seleção precisa dos elementos para estilização e funcionalidades específicas.
+     - Seletores de Pseudo-classes e Pseudo-elementos:
+       - A equipe emprega seletores de pseudo-classes e pseudo-elementos para estilizar elementos em estados específicos ou adicionar elementos decorativos sem a necessidade de markup adicional.

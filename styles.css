@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Antic+Didone&family=Black+Ops+One&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Major+Mono+Display&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    
+
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    padding: 15px 10px;
+    margin-bottom: 40px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    background-color: #555;
+    transition: background-color 0.3s;
+}
+
+
+
+.presentation {
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.presentation h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-family:"Black Ops One", system-ui; ;
+}
+
+.presentation h2 {
+    font-size: 24px;
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+#depoimentos {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#depoimentos h2 {
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row-reverse; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 200px;
+    border: 2px solid #000;
+    
+}
+.dep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 200px;
+    border: 2px solid #000;
+}
+
+
+.flex-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.flex-item h3 {
+    margin-top: 10px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 2px;
+    margin-top: 250px;
+}
+
+.footer p {
+    margin: 5px 0;
+    
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
